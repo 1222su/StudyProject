@@ -1,0 +1,15 @@
+data:
+  name: "iris"
+  feature_cols: ["sepal_length", "sepal_width", "petal_length", "petal_width"]
+
+preprocess:
+  z_score: True
+
+visualization:
+  mean_std: True
+  corr_heatmap: True
+  save_dir: "../results/"
+
+log:
+  level: "INFO"
+  file: "../logs/experiment.log"

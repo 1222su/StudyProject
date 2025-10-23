@@ -1,0 +1,66 @@
+2025-10-23 19:44:59,276 - INFO - ===== 实验开始 =====
+2025-10-23 19:44:59,276 - INFO - 加载配置: {'data': {'name': 'iris', 'feature_cols': ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']}, 'preprocess': {'z_score': True}, 'visualization': {'mean_std': True, 'corr_heatmap': True, 'save_dir': '../results/'}, 'log': {'level': 'INFO', 'file': '../logs/experiment.log'}}
+2025-10-23 19:44:59,283 - INFO - 加载数据集: iris，样本数: 150，特征数: 4
+2025-10-23 19:44:59,404 - INFO - z-score标准化速度对比:
+2025-10-23 19:44:59,404 - INFO - Python循环: 0.000595秒/次
+2025-10-23 19:44:59,405 - INFO - Numpy向量化: 0.000060秒/次
+2025-10-23 19:44:59,405 - INFO - 加速比: 9.88x (≥10x要求: 不满足)
+2025-10-23 19:44:59,407 - INFO - z-score标准化结果验证通过
+2025-10-23 19:44:59,869 - INFO - 均值/方差图已保存至: ../results/mean_std.png
+2025-10-23 19:45:00,040 - INFO - 相关热力图已保存至: ../results/corr_heatmap.png
+2025-10-23 19:45:00,041 - INFO - ===== 实验结束 =====
+2025-10-23 19:46:00,375 - INFO - ===== 实验开始 =====
+2025-10-23 19:46:00,376 - INFO - 加载配置: {'data': {'name': 'iris', 'feature_cols': ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']}, 'preprocess': {'z_score': True}, 'visualization': {'mean_std': True, 'corr_heatmap': True, 'save_dir': 'D:\\Projects\\future ai study\\Project\\results'}, 'log': {'level': 'INFO', 'file': 'D:\\Projects\\future ai study\\Project\\logs\\experiment.log'}}
+2025-10-23 19:46:00,380 - INFO - 加载数据集: iris，样本数: 150，特征数: 4
+2025-10-23 19:46:00,467 - INFO - z-score标准化速度对比:
+2025-10-23 19:46:00,467 - INFO - Python循环: 0.000400秒/次
+2025-10-23 19:46:00,468 - INFO - Numpy向量化: 0.000046秒/次
+2025-10-23 19:46:00,468 - INFO - 加速比: 8.70x (≥10x要求: 不满足)
+2025-10-23 19:46:00,469 - INFO - z-score标准化结果验证通过
+2025-10-23 19:46:01,035 - INFO - 均值/方差图已保存至: D:\Projects\future ai study\Project\results\mean_std.png
+2025-10-23 19:46:01,224 - INFO - 相关热力图已保存至: D:\Projects\future ai study\Project\results\corr_heatmap.png
+2025-10-23 19:46:01,224 - INFO - ===== 实验结束 =====
+2025-10-23 19:47:00,963 - INFO - ===== 实验开始 =====
+2025-10-23 19:47:00,963 - INFO - 加载配置: {'data': {'name': 'iris', 'feature_cols': ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']}, 'preprocess': {'z_score': True}, 'visualization': {'mean_std': True, 'corr_heatmap': True, 'save_dir': 'D:\\Projects\\future ai study\\Project\\results'}, 'log': {'level': 'INFO', 'file': 'D:\\Projects\\future ai study\\Project\\logs\\experiment.log'}}
+2025-10-23 19:47:00,967 - INFO - 加载数据集: iris，样本数: 150，特征数: 4
+2025-10-23 19:47:01,674 - INFO - z-score标准化速度对比:
+2025-10-23 19:47:01,675 - INFO - Python循环: 0.000197秒/次
+2025-10-23 19:47:01,676 - INFO - Numpy向量化: 0.000051秒/次
+2025-10-23 19:47:01,677 - INFO - 加速比: 3.87x (≥10x要求: 不满足)
+2025-10-23 19:47:01,678 - INFO - z-score标准化结果验证通过
+2025-10-23 19:47:01,914 - INFO - 均值/方差图已保存至: D:\Projects\future ai study\Project\results\mean_std.png
+2025-10-23 19:47:02,080 - INFO - 相关热力图已保存至: D:\Projects\future ai study\Project\results\corr_heatmap.png
+2025-10-23 19:47:02,081 - INFO - ===== 实验结束 =====
+2025-10-23 19:47:45,224 - INFO - ===== 实验开始 =====
+2025-10-23 19:47:45,225 - INFO - 加载配置: {'data': {'name': 'iris', 'feature_cols': ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']}, 'preprocess': {'z_score': True}, 'visualization': {'mean_std': True, 'corr_heatmap': True, 'save_dir': 'D:\\Projects\\future ai study\\Project\\results'}, 'log': {'level': 'INFO', 'file': 'D:\\Projects\\future ai study\\Project\\logs\\experiment.log'}}
+2025-10-23 19:47:45,228 - INFO - 加载数据集: iris，样本数: 150，特征数: 4
+2025-10-23 19:47:45,329 - INFO - z-score标准化速度对比:
+2025-10-23 19:47:45,329 - INFO - Python循环: 0.000516秒/次
+2025-10-23 19:47:45,330 - INFO - Numpy向量化: 0.000039秒/次
+2025-10-23 19:47:45,330 - INFO - 加速比: 13.16x (≥10x要求: 满足)
+2025-10-23 19:47:45,331 - INFO - z-score标准化结果验证通过
+2025-10-23 19:47:45,572 - INFO - 均值/方差图已保存至: D:\Projects\future ai study\Project\results\mean_std.png
+2025-10-23 19:47:45,779 - INFO - 相关热力图已保存至: D:\Projects\future ai study\Project\results\corr_heatmap.png
+2025-10-23 19:47:45,780 - INFO - ===== 实验结束 =====
+2025-10-23 20:56:49,928 - INFO - ===== 实验开始 =====
+2025-10-23 20:56:49,938 - INFO - 加载配置: {'data': {'name': 'iris', 'feature_cols': ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']}, 'preprocess': {'z_score': True}, 'visualization': {'mean_std': True, 'corr_heatmap': True, 'save_dir': 'd:\\Projects\\future ai study\\Project\\results'}, 'log': {'level': 'INFO', 'file': 'd:\\Projects\\future ai study\\Project\\logs\\experiment.log'}}
+2025-10-23 20:56:49,942 - INFO - 加载数据集: iris，样本数: 150，特征数: 4
+2025-10-23 20:56:50,050 - INFO - z-score标准化速度对比:
+2025-10-23 20:56:50,050 - INFO - Python循环: 0.000511秒/次
+2025-10-23 20:56:50,050 - INFO - Numpy向量化: 0.000047秒/次
+2025-10-23 20:56:50,050 - INFO - 加速比: 10.95x (≥10x要求: 满足)
+2025-10-23 20:56:50,051 - INFO - z-score标准化结果验证通过
+2025-10-23 20:56:50,292 - INFO - 均值/方差图已保存至: d:\Projects\future ai study\Project\results\mean_std.png
+2025-10-23 20:56:50,474 - INFO - 相关热力图已保存至: d:\Projects\future ai study\Project\results\corr_heatmap.png
+2025-10-23 20:56:50,475 - INFO - ===== 实验结束 =====
+2025-10-23 20:57:15,904 - INFO - ===== 实验开始 =====
+2025-10-23 20:57:15,904 - INFO - 加载配置: {'data': {'name': 'iris', 'feature_cols': ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']}, 'preprocess': {'z_score': True}, 'visualization': {'mean_std': True, 'corr_heatmap': True, 'save_dir': 'd:\\Projects\\future ai study\\Project\\results'}, 'log': {'level': 'INFO', 'file': 'd:\\Projects\\future ai study\\Project\\logs\\experiment.log'}}
+2025-10-23 20:57:15,908 - INFO - 加载数据集: iris，样本数: 150，特征数: 4
+2025-10-23 20:57:15,985 - INFO - z-score标准化速度对比:
+2025-10-23 20:57:15,985 - INFO - Python循环: 0.000514秒/次
+2025-10-23 20:57:15,985 - INFO - Numpy向量化: 0.000040秒/次
+2025-10-23 20:57:15,985 - INFO - 加速比: 13.00x (≥10x要求: 满足)
+2025-10-23 20:57:15,986 - INFO - z-score标准化结果验证通过
+2025-10-23 20:57:16,203 - INFO - 均值/方差图已保存至: d:\Projects\future ai study\Project\results\mean_std.png
+2025-10-23 20:57:16,337 - INFO - 相关热力图已保存至: d:\Projects\future ai study\Project\results\corr_heatmap.png
+2025-10-23 20:57:16,337 - INFO - ===== 实验结束 =====
