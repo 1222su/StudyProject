@@ -7,5 +7,5 @@
     notebooks/       # 探索性分析
     logs             # 日志
     results          #可视化结果
-    eval/            # 评测集与评测脚本（RAG/Agent 方向）  
+    eval/            # 评测集与评测脚本 
     README.md        # 复现指南（三步走）
