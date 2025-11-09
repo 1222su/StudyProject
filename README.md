@@ -9,7 +9,7 @@
     results          # 可视化结果
     eval/            # 评测集与评测脚本 
     Study/           # 学习记录、笔记
-    README.md        # 复现指南（三步走）
+    README.md        # 复现指南
 
 
 ### week1复现指南
