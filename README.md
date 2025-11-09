@@ -9,3 +9,9 @@
     results          #可视化结果
     eval/            # 评测集与评测脚本 
     README.md        # 复现指南（三步走）
+
+
+### week1复现指南
+src\main1.py是主程序（暂时未配备输出日志和曲线）  
+results\1wine_corr.png为绘制wine特征间相关性热力图  
+results\1wine_mean_std.png为绘制wine特征均值和方差柱状图
