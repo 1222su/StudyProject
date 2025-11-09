@@ -37,3 +37,12 @@ ypoints=np.array([4,5,6,7])
 plt.plot(xpoints,ypoints,'--ro')  
 plt.show()  
 
+## 为了显示中文字体
+plt.rcParams["font.family"] = ["SimHei", "Microsoft YaHei"]     
+
+## 将图保存一个目录下
+plt.savefig('results/wine_corr.png',dpi=300,bbox_inches='tight')  
+
+## 显示图标
+plt.bar(....,label='名字')  
+plt.legend()

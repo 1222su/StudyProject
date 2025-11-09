@@ -2,14 +2,14 @@ import yaml
 import numpy as np
 import timeit
 from sklearn.datasets import load_iris
-import os
+import os #Operating System
 from utils import (
     init_logger, z_score_python, z_score_numpy,
     plot_mean_std, plot_corr_heatmap
 )
 import sys, io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-
+##引入库
 def main():
     # 1. 加载配置
     script_dir = os.path.dirname(os.path.abspath(__file__))

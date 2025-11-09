@@ -1,13 +1,13 @@
-import seaborn as sns
-import matplotlib.pyplot as plt
-import pandas as pd
-
-# 创建一个示例数据框
-data = {'A': [1, 2, 3, 4, 5], 'B': [5, 4, 3, 2, 1]}
-df = pd.DataFrame(data)
-# 创建一个相关性矩阵
-correlation_matrix = df.corr()
-
-# 使用热图可视化相关性矩阵
-sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f")
-plt.show()
+###配置是啥
+###数据集内容
+###日志是怎么写的
+###timeit是啥
+###预热并清理缓存是啥
+###路径是怎么保存的
+import os
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+from sklearn.datasets import load_iris
+iris=load_iris()
+data=iris.data
+print(iris)
