@@ -6,8 +6,9 @@
     scripts/         # 训练/评测/导出/部署一键脚本 
     notebooks/       # 探索性分析
     logs             # 日志
-    results          #可视化结果
+    results          # 可视化结果
     eval/            # 评测集与评测脚本 
+<<<<<<< HEAD
     README.md        # 复现指南（三步走）
 
 
@@ -15,3 +16,7 @@
 + src\main1.py是主程序（暂时未配备输出日志和曲线） 
 + results\1wine_corr.png为绘制wine特征间相关性热力图
 + results\1wine_mean_std.png为绘制wine特征均值和方差柱状图
+=======
+    Study/           # 学习记录、笔记
+    README.md        # 复现指南（三步走）
+>>>>>>> 2ef673e49109a85158ad5f76c10846157a89587a
